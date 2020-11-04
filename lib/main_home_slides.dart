@@ -108,7 +108,7 @@ class _MainSlidesHomeState extends State<MainSlidesHome> {
     final mqry = MediaQuery.of(context);
 
     return new Container(
-      height: mqry.size.height / 1.4,
+      height: mqry.size.height / 1.8,
       child: PageTransformer(
         pageViewBuilder: (context, visibilityResolver) {
           List slideList = placestovisit;
